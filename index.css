@@ -1,5 +1,12 @@
+html {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
 body{
+  font-family: 'Dancing Script', cursive, sans-serif;
   font-size: 16px;
+  font-weight: 400;
   background-image: url('/tashkent-railway-station.jpg');
   background-size: cover;
 }
