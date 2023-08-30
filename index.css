@@ -1,12 +1,12 @@
 html {
   scroll-behavior: smooth;
   box-sizing: border-box;
-}
-
-body{
   font-family: 'Dancing Script', cursive, sans-serif;
   font-size: 16px;
   font-weight: 400;
+}
+
+body {
   text-align: center;
   background-image: url('/tashkent-railway-station.jpg');
   background-size: cover;
@@ -19,4 +19,15 @@ h1 {
 h2 {
   font-size: 50px;
   margin: 10px;
+}
+
+button {
+  padding: 10px;
+  font-family: 'Dancing Script', cursive, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  border: 1px solid white;
+  border-radius: 8px;
+  background-color: rgb(84, 121, 164);
+  color: whitesmoke;
 }
