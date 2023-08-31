@@ -8,11 +8,11 @@ let count = 0;
 
 function increment() {
   count += 1;
-  countEl.innerText = count;
+  countEl.textContent = count;
 } 
 
 function save() {
-  let counteStr = ' '+ count + ' - ';
-  saveEl.innerText += counteStr
+  let counteStr = count + ' - ';
+  saveEl.textContent += counteStr
   console.log(count)
 }
