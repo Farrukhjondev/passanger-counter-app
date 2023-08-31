@@ -1,7 +1,7 @@
 html {
   scroll-behavior: smooth;
   box-sizing: border-box;
-  font-family: 'Dancing Script', cursive, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
@@ -9,25 +9,39 @@ html {
 body {
   text-align: center;
   background-image: url('/tashkent-railway-station.jpg');
+  background-repeat: no-repeat; 
+  background-position: auto;
   background-size: cover;
+  text-shadow: 1px yellowgreen;
 }
-
-h1 {
-  margin: 30px;
-}
-
-h2 {
+.score-board {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
   font-size: 50px;
-  margin: 10px;
+
 }
 
 button {
+  width: 50%;
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
+  margin: 10px;
   padding: 10px;
-  font-family: 'Dancing Script', cursive, sans-serif;
-  font-size: 20px;
-  font-weight: 500;
   border: 1px solid white;
-  border-radius: 8px;
+  border-radius: 10px;
   background-color: rgb(84, 121, 164);
   color: whitesmoke;
+}
+
+@media screen and (max-width:1140px){
+  body{
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+  }
 }
