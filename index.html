@@ -7,15 +7,18 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/index.css"/>
 
 </head>
 <body>
-  <h1>People entered:</h1>
-  <h2 id="count-el">0</h2>
-  <button id="increment-btn" onclick="increment()">INCREMENT</button>
-
+  <section class="score-board">
+    <h1>People entered:</h1>
+    <h2 id="count-el">0</h2>
+    <button id="increment-btn" onclick="increment()">INCREMENT</button>
+    <button id="save-btn" onclick="save()">SAVE</button>
+    <p id="save-el">Preview enteries: </p>
+  </section>  
   <script src="/index.js"></script>
 </body>
 </html>
